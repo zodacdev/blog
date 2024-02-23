@@ -1,0 +1,14 @@
+/* CONTAINERS */
+body {
+  max-width: 64rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 2rem;
+}
+/* CONTAINERS */
