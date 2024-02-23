@@ -4,5 +4,11 @@
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --ff-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Andale Mono", "Ubuntu Mono", "Courier New", monospace;
+    --bg-color: #282828;
+    --text-color: #fbf1c7;
+    --text-muted: #a89984;
+    --links-color: #b8bb26;
+    --links-hover: #fabd2f;
+    --links-visited: #928374;
 }
 /* GLOBAL VARIABLES */

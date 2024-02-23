@@ -1,0 +1,14 @@
+/* LINKS */
+a:link {
+    color: var(--links-color);
+}
+
+a:visited {
+    color: var(--links-visited);
+}
+
+a:hover {
+    color: var(--links-hover);
+    font-weight: bold;
+}
+/* LINKS */

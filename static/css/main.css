@@ -3,4 +3,9 @@
 @import url('_reset.css');
 @import url('_typography.css');
 @import url('_containers.css');
+@import url('_links.css');
+@import url('_header.css');
+@import url('_nav.css');
+@import url('_main.css');
+@import url('_footer.css');
 /* MAIN STYLES */

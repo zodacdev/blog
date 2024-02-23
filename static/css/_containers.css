@@ -8,7 +8,10 @@ body {
     "nav"
     "main"
     "footer";
-    grid-template-columns: minmax(0, 1fr);
-    row-gap: 2rem;
+  grid-template-columns: minmax(0, 1fr);
+  row-gap: 2rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
+
 /* CONTAINERS */
