@@ -1,6 +1,25 @@
 /* NAV */
 nav {
   grid-area: nav;
-  background-color: beige;
+  border-top: 1px dotted var(--text-muted);
+  border-bottom: 1px dotted var(--text-muted);
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li a {
+  text-decoration: none;
+  padding-right: 1rem;
+}
+
+nav li a::before {
+  content: '[ ';
+}
+
+nav li a::after {
+  content: ' ]';
 }
 /* NAV */

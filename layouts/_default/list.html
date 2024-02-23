@@ -1,4 +1,19 @@
 {{ define "main" }}
-    {{ .Title }}
+<article>
+    <h2>{{ .Title }}</h2>
     {{ .Content }}
+    {{ range (where .Site.RegularPages "Type" "in" (slice "blog")).GroupByDate "2006" }}
+        <h3>{{ .Key }}</h3>
+        <ul>
+        {{ range .Pages }}
+        <li>
+            {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+            {{ $dateHuman := .Date | time.Format ":date_long" }}
+            <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+            <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{- end -}}
+        </ul>
+    {{ end }}
+</article>
 {{ end }}

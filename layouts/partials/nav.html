@@ -1,7 +1,7 @@
 <nav>
     <ul>
-        <li><a href="/">Inicio</a></li>
-        <li><a href="#">Acerca</a></li>
-        <li><a href="#">Tags</a></li>
+        {{ range site.Menus.main }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
     </ul>
 </nav>

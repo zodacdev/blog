@@ -1,6 +1,19 @@
 /* MAIN */
 main {
   grid-area: main;
-  background-color: aqua;
+}
+
+main ul {
+  list-style-type: none;
+}
+
+main li a {
+  text-decoration: none;
+}
+
+main .post-meta {
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 0;
 }
 /* MAIN */
