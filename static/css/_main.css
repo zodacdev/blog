@@ -4,11 +4,22 @@ main {
 }
 
 main ul {
-  list-style-type: none;
+  list-style-type: ;
+  padding-left: 18px;
 }
 
-main li a {
+main ol {
+  list-style-type: decimal;
+  padding-left: 18px;
+}
+
+main ul li a {
   text-decoration: none;
+}
+
+main ul li::marker {
+  content: '∗\00A0';
+  color: var(--text-muted);
 }
 
 main .post-meta {
@@ -16,4 +27,5 @@ main .post-meta {
   font-style: italic;
   margin-top: 0;
 }
+
 /* MAIN */

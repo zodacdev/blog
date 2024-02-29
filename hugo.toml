@@ -1,20 +1,28 @@
 baseURL = 'https://example.org/'
 languageCode = 'es'
-title = '~/home/zodac'
+title = '~/zodac'
 disableKinds = ['taxonomy', 'term']
+enableRobotsTXT = true
 
 [[menu.main]]
-    name = 'inicio'
-    url = '/'
-    weight = 1
+name = 'inicio'
+url = '/'
+weight = 1
 [[menu.main]]
-    name = 'blog'
-    url = '/blog'
-    weight = 2
+name = 'blog'
+url = '/blog'
+weight = 2
+[[menu.main]]
+name = 'rss'
+url = '/index.xml'
+weight = 3
 
 [params]
-    subtitle = 'bienvenido a mi espacio virtual'
+description = 'Bienvenido a mi baúl de recuerdos..'
+
+[params.author]
+name = 'zodac'
 
 [markup]
-    [markup.highlight]
-        style = "gruvbox"
+[markup.highlight]
+style = "gruvbox"

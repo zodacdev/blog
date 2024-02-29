@@ -104,4 +104,14 @@ table caption {
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
+
+hr {
+  border: 0;
+  margin-bottom: 0.5rem;
+}
+
+hr::after {
+  content: '---';
+  color: var(--text-muted);
+}
 /* TYPOGRAPHY */
