@@ -1,7 +1,8 @@
 +++
-title = 'Post 1'
+title = 'Post de ejemplo'
 date = 2024-02-23T13:06:19-03:00
 tags = ['linux']
+slug = "Post de ejemplo para probar cosas"
 draft = true
 +++
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim placerat nisi, a auctor justo vehicula ut. Nunc sed ligula eleifend, consectetur mauris in, vulputate justo. Mauris elementum tortor eu euismod ultrices.

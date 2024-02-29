@@ -4,22 +4,23 @@ main {
 }
 
 main ul {
-  list-style-type: ;
-  padding-left: 18px;
+  margin-left: 1rem;
+  padding-left: 0.5rem;
 }
 
 main ol {
   list-style-type: decimal;
-  padding-left: 18px;
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+}
+
+main ul li::marker {
+  content: '❊ ';
+  color: var(--text-muted);
 }
 
 main ul li a {
   text-decoration: none;
-}
-
-main ul li::marker {
-  content: '∗\00A0';
-  color: var(--text-muted);
 }
 
 main .post-meta {
