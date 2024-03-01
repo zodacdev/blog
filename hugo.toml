@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://zodac.dev'
 languageCode = 'es'
 title = '~/zodac'
 disableKinds = ['taxonomy', 'term']
