@@ -2,7 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'es'
 title = '~/zodac'
 disableKinds = ['taxonomy', 'term']
-enableRobotsTXT = true
+enableRobotsTXT = false
 
 [[menu.main]]
 name = 'inicio'
@@ -13,6 +13,20 @@ name = 'blog'
 url = '/blog'
 weight = 2
 [[menu.main]]
+name = 'privacidad'
+url = '/privacidad'
+weight = 3
+
+
+[[menu.footer]]
+name = 'mastodon'
+url = 'https://lile.cl/@zodac'
+weight = 1
+[[menu.footer]]
+name = 'github'
+url = 'https://github.com/zodacdev'
+weight = 2
+[[menu.footer]]
 name = 'rss'
 url = '/index.xml'
 weight = 3

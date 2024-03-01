@@ -23,10 +23,44 @@ main ul li a {
   text-decoration: none;
 }
 
+main .post-heder .post-content {
+  font-size: inherit;
+}
+
 main .post-meta {
   color: var(--text-muted);
   font-style: italic;
   margin-top: 0;
+}
+
+main .post-prev-next {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main .post-prev-next > .post-prev {
+  align-content: flex-start;
+  & a {
+    text-decoration: none;
+  }
+}
+
+main .post-prev-next > .post-next {
+  align-content: flex-end;
+  & a {
+    text-decoration: none;
+  }
+}
+
+.previous::before {
+  content: '↞ ';
+  color: var(--text-muted);
+}
+
+.next::after {
+  content: ' ↠';
+  color: var(--text-muted);
 }
 
 /* MAIN */
