@@ -1,3 +1,42 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'zodac'
+baseURL = '/'
+languageCode = 'es'
+title = '~/zodac'
+disableKinds = ['taxonomy', 'term']
+enableRobotsTXT = false
+
+[[menu.main]]
+name = 'inicio'
+url = '/'
+weight = 1
+[[menu.main]]
+name = 'blog'
+url = '/blog'
+weight = 2
+[[menu.main]]
+name = 'privacidad'
+url = '/privacidad'
+weight = 3
+
+
+[[menu.footer]]
+name = 'mastodon'
+url = 'https://lile.cl/@zodac'
+weight = 1
+[[menu.footer]]
+name = 'github'
+url = 'https://github.com/zodacdev'
+weight = 2
+[[menu.footer]]
+name = 'rss'
+url = '/index.xml'
+weight = 3
+
+[params]
+description = 'Bienvenido a mi baúl de recuerdos..'
+
+[params.author]
+name = 'zodac'
+
+[markup]
+[markup.highlight]
+style = "gruvbox"

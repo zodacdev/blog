@@ -1,0 +1,18 @@
+<footer>
+  <p>Copyleft &ndash; {{ time.Now.Year }} &ndash; Hecho con software libre.</p>
+  <p>
+    {{ range site.Menus.footer }}
+    <a href="{{ .URL }}">{{ .Name }}</a>
+    {{ end }}
+  </p>
+  <figure>
+    <a href="https://notbyai.fyi" target="_blank" rel="noreferrer noopener">
+      <img
+      class="center"
+        loading="lazy"
+        src="/img/ia.png"
+        alt="Escrito por un humano, no por IA"
+      />
+    </a>
+  </figure>
+</footer>

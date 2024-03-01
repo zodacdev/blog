@@ -1,0 +1,18 @@
+/* CONTAINERS */
+body {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0.5rem;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+  grid-template-columns: minmax(0, 1fr);
+  row-gap: 1rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* CONTAINERS */

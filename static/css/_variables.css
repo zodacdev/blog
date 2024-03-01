@@ -1,0 +1,16 @@
+/* GLOBAL VARIABLES */
+:root {
+  --ff-sans: system-ui, sans-serif;
+  --ff-mono: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
+    "DejaVu Sans Mono", monospace;
+  --bg-color: #000;
+  --text-color: #fbf1c7;
+  --text-muted: #a89984;
+  --text-code: #928374;
+  --links-color: #b8bb26;
+  --links-hover: #fabd2f;
+  --links-visited: #928374;
+  --border-color: #504945;
+  --table-bg-color: #2b2b2b;
+}
+/* GLOBAL VARIABLES */

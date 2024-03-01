@@ -1,0 +1,36 @@
+{{ define "main" }}
+<article>
+    <div class="post-header">
+        <h2>{{ .Title }}</h2>
+        <p class="post-meta">
+            {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+            {{ $dateHuman := .Date | time.Format ":date_long" }}
+            <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+            <span>
+                {{ if gt .ReadingTime 1 }}
+                {{ .Scratch.Set "timeUnit" "mins" }}
+                {{ else }}
+                    {{ .Scratch.Set "timeUnit" "min" }}
+                {{ end }}
+                &#8275; {{.ReadingTime}} {{ .Scratch.Get "timeUnit" }}
+            </span>
+            <span>&#8275; {{ .WordCount }} words</span>
+        </p>
+    </div>
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+    <div class="post-prev-next">
+        <div class="post-prev">
+            {{ with .PrevInSection }}
+            <a class="previous" href="{{ .RelPermalink }}"> {{ .LinkTitle }}</a>
+            {{ end }}
+        </div>
+        <div class="post-next">
+            {{ with .NextInSection }}
+            <a class="next" href="{{ .RelPermalink }}"> {{ .LinkTitle }}</a>
+            {{ end }}
+        </div>
+    </div>
+</article>
+{{ end }}
