@@ -13,8 +13,8 @@ name = 'blog'
 url = '/blog'
 weight = 2
 [[menu.main]]
-name = 'privacidad'
-url = '/privacidad'
+name = 'ahora'
+url = '/ahora'
 weight = 3
 
 
@@ -30,6 +30,10 @@ weight = 2
 name = 'rss'
 url = '/index.xml'
 weight = 3
+[[menu.footer]]
+name = 'privacidad'
+url = '/privacidad'
+weight = 4
 
 [params]
 description = 'Bienvenido a mi baúl de recuerdos..'
