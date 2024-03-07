@@ -9,27 +9,27 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 h3 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 h4 {
-  font-size: 1.4rem;
-}
-
-h5 {
   font-size: 1.2rem;
 }
 
-h6 {
+h5 {
   font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.8rem;
 }
 
 small {
@@ -42,7 +42,12 @@ strong {
 
 p {
   margin: 1rem 0;
+  font-size: 1rem;
 }
+
+ figcaption {
+  font-size: 0.75rem;
+ }
 
 blockquote {
   margin-inline-start: 0;
@@ -113,5 +118,23 @@ hr {
 hr::after {
   content: '---';
   color: var(--text-muted);
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 110%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 120%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 130%;
+  }
 }
 /* TYPOGRAPHY */

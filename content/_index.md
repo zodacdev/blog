@@ -14,7 +14,7 @@ Principalmente escribo sobre _tecnología_, _sofware libre_, _libros_ y en gener
 
 Si deseas comunicarte conmigo puedes hacerlo en:
 
-- __Email__: zodac[ARROBA]duck[PUNTO]com
-- __Telegram__: [ARROBA]z0d4c
-- __Matrix__: [ARROBA]zodacdev[DOSPUNTOS]matrix[PUNTO]org
-- __XMPP__: zodac[ARROBA]suchat[PUNTO]org
+- __Email__: zodac[@]duck[.]com
+- __Telegram__: [@]z0d4c
+- __Matrix__: [@]zodacdev[:]matrix[.]org
+- __XMPP__: zodac[@]suchat[.]org
