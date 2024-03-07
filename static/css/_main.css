@@ -1,52 +1,57 @@
 /* MAIN */
-main {
-  grid-area: main;
+main article {
+  padding-bottom: 0.5rem;
 }
 
-main ul {
+main article ul {
   margin-left: 1rem;
   padding-left: 0.5rem;
+  padding-top: 0.5rem;
 }
 
-main ol {
+main article ul li::marker {
+  content: "❊ ";
+  color: var(--text-muted);
+}
+
+main article ul li a {
+  text-decoration: none;
+}
+
+main article h2 {
+  margin-top: 0.5rem;
+}
+
+main article ol {
   list-style-type: decimal;
   margin-left: 1rem;
   padding-left: 0.5rem;
 }
 
-main ul li::marker {
-  content: '❊ ';
-  color: var(--text-muted);
-}
-
-main ul li a {
-  text-decoration: none;
-}
-
-main .post-heder .post-content {
+main article .post-header .post-content {
   font-size: inherit;
 }
 
-main .post-meta {
+main article .post-meta {
   color: var(--text-muted);
   font-style: italic;
   margin-top: 0;
 }
 
-main .post-prev-next {
+main article .post-prev-next {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-main .post-prev-next > .post-prev {
+main article .post-prev-next > .post-prev {
   align-content: flex-start;
   & a {
     text-decoration: none;
   }
 }
 
-main .post-prev-next > .post-next {
+main article .post-prev-next > .post-next {
   align-content: flex-end;
   & a {
     text-decoration: none;
@@ -54,12 +59,12 @@ main .post-prev-next > .post-next {
 }
 
 .previous::before {
-  content: '↞ ';
+  content: "↞ ";
   color: var(--text-muted);
 }
 
 .next::after {
-  content: ' ↠';
+  content: " ↠";
   color: var(--text-muted);
 }
 

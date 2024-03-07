@@ -1,6 +1,6 @@
 /* NAV */
 nav {
-  grid-area: nav;
+  width: 100%;
   border-top: 1px dotted var(--text-muted);
   border-bottom: 1px dotted var(--text-muted);
 }
