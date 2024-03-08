@@ -3,7 +3,7 @@ title = 'Hola Mundo...'
 date = 2024-03-07T19:16:52-03:00
 draft = false
 +++
-Esta es una entrada inicial o como se conoce en el mundo de la programación un _"Hola Mundo"_. Un _"Hola Mundo"_ es un paso inicial para comenzar con el estudio de cierto lenguaje de programación pero en este caso, es mi inicio en la escritura en el vasto mundo de internet.
+Esta es una entrada inicial o como se conoce en el mundo de la programación un _"Hola Mundo"_. Un _"Hola Mundo"_ es un primer paso simbólico para comenzar con el estudio de cierto lenguaje de programación pero en este caso, es mi inicio en la escritura en el vasto mundo de internet.
 
 Las razones que me llevaron a crear este sitio fue principalmente para mejorar mis habilidades comunicativas y compartir las cosas que considero interesantes. Sé que los blog han perdido la popularidad de antaño y que la inmediatez de las redes sociales y los videos son el rey. Creo que recuperar las habilidades de leer son imprescindibles a día de hoy.
 
