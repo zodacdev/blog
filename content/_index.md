@@ -16,4 +16,3 @@ Si deseas comunicarte conmigo puedes hacerlo en:
 
 - __Email__: zodac[@]duck[.]com
 - __Telegram__: [@]z0d4c
-- __Matrix__: [@]zodacdev[:]matrix[.]org
